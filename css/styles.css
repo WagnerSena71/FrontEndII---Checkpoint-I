@@ -1,19 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
-*,
-*:after,
-*:before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 :root {
-    --bg-color: #3d3c3d;
-    --bg-header: #10917b;
-    /* --header-height: 5rem; */
-    --color-orange: #84f1e3;
+    --bg-color: #31af2ddc;
+    --bg-header: #472dbb;
+  }
+
+header{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: var(--bg-header);
+    padding: auto;
+    
+    
 }
+
+
 
 body {
     font-family: "Poppins", sans-serif;
@@ -22,27 +25,18 @@ body {
     /* height: 100vh; */
 }
 
-form {
-    padding: 0.5rem;
+.form {
+    text-align: center;
+    background-color:  var(--bg-header);
+    width: 25%;
+    border-radius: 20rem;
+    padding: 6rem 6rem;
 }
 
-main {
-    padding: 2.5rem 0;
+main{
     display: flex;
     justify-content: center;
-}
-
-.container {
-    text-align: center;
-    background-color: var(--bg-header);
-    width: 25%;
-    border-radius: 2rem;
-    padding: 1.5rem 4rem;
-}
-
-label {
-    display: block;
-    font-size: 0.8rem;
+    padding: 3rem;
 }
 
 legend {
@@ -81,4 +75,10 @@ button {
     font-weight: bold;
     background-color: rgb(100, 100, 100);
     color: white;
+}
+
+.call{
+    background-color:yellow;
+    color: black;
+    
 }
