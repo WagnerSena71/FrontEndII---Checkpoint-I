@@ -13,73 +13,20 @@
     --bg-header: #472dbb;
 }
 
+body {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background-color: var(--bg-color);
+}
+
 header{
     display: flex;
     justify-content:center;
     align-items:center;
     background-color: var(--bg-header);
-    padding: auto;
 }
 
-body {
-    font-family: "Poppins", sans-serif;
-    color: white;
-    background-color: var(--bg-color);
-    /* height: 100vh; */
-}
-
-.form {
-    text-align: center;
-    background-color:  var(--bg-header);
-    width: 25%;
-    border-radius: 20rem;
-    padding: 6rem 6rem;
-}
-
-main{
-    display: flex;
-    justify-content: center;
-    padding: 3rem;
-}
-
-legend {
-    font-size: 0.8rem;
-}
-
-input {
-    margin-bottom: 0.5rem;
-    font-size: 0.8rem;
-    border-radius: 0.6rem;
-    padding: 0.4rem;
-
-}
-
-fieldset {
-
-    padding-block-end: 0.5em;
-}
-
-select {
-    display: block;
-    border-radius: 0.6rem;
-    padding: 0.4rem;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 0.8rem;
-}
-
-button {
-    padding: 0.6rem 1.5rem;
-    border-radius: 0.5rem;
-    margin: 1.5rem 1.5rem 0 1.5rem;
-    border: none;
-    font-weight: bold;
-    background-color: rgb(100, 100, 100);
-    color: white;
-}
-
-.call{
-    background-color:yellow;
-    color: black;
-
+header .logo {
+    width: 10rem;
+    padding: 1rem;
 }
