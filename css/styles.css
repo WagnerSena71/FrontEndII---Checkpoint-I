@@ -30,3 +30,74 @@ header .logo {
     width: 10rem;
     padding: 1rem;
 }
+
+main {
+    padding: 0 0.5rem;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+}
+
+.form-container {
+    background-color: red;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 5px 5px 15px #222222;
+}
+
+.form-container h1 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 0.5rem 0;
+}
+
+.form-container form {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #f5f5f5;
+}
+
+.cards-container {
+    margin: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+}
+
+.card-container {
+    background-color: var(--bg-header);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    border-radius: 0.8rem;
+    padding: 4rem;
+    box-shadow: 5px 5px 15px #222222;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    gap: 0.5rem;
+    width: 6rem;
+}
+
+.card img {
+    width: 8rem;
+}
