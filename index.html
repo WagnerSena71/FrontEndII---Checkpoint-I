@@ -10,55 +10,20 @@
 <body>
     <header>
         <div>
-            <div id="logo">
-            <img src="./img/super-Herois.png" width="300px"  alt="">
+            <img class="logo" src="./img/super-Herois.png" alt="meninos do front">
         </div>
     </header>
     <main>
-        <div class="form">
-
+        <div class="form-container">
             <section>
-                <h2>Fábrica de Super Heróis!</h2>
+                <h1>Fábrica de Super Heróis!</h1>
             </section>
+            <form action="#">
+                <label for="titulo">Título</label>
+                <input type="text" name="titulo" id="titulo">
 
-            <form action="#" method="POST">
-
-
-                <fieldset>
-                    <legend>Escolha um herói!</legend>
-                        <div class="tipos-div">
-                            <select name="Tipos" id="Tipos">
-                                <option value="">Selecione uma opção</option>
-                                <option value="joao">João</option>
-                                <option value="pedro">Pedro</option>
-                                <option value="wagner">Wagner</option>
-                            </select>
-                        </div>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Escolha um tipo!</legend>
-                        <div class="tipos-div">
-                            <select name="Tipos" id="Tipos">
-                                <option value="">Selecione uma opção</option>
-                                <option value="musculos">Músculos</option>
-                                <option value="fofinho">Fofinho</option>
-                                <option value="magrinho">Magrinho</option>
-                            </select>
-                        </div>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Escolha um Jargão!</legend>
-                        <div class="tipos-div">
-                            <select name="Tipos" id="Tipos">
-                                <option value="">Selecione uma opção</option>
-                                <option value="buzz">Ao infinito e Além!</option>
-                                <option value="chapolim">Não contavam com a minha astúcia!</option>
-                                <option value="coisa">Tá na hora do pau!</option>
-                            </select>
-                        </div>
-                </fieldset>
+                <label for="descricao">Descrição</label>
+                <input type="text">
 
                 <button type="submit">Montar</button>
                 <button type="reset">Resetar</button>
