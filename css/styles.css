@@ -100,12 +100,23 @@ form input {
     gap: 0.5rem;
 }
 
+.img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card img {
-    width: 6rem;
     border-radius: 0.5rem;
 }
 
-.card p {
+.card-content {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
 }
 
