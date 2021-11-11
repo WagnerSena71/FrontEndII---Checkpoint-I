@@ -115,6 +115,8 @@ form input {
     display: flex;
     text-align: center;
     flex-direction: column;
+    flex-wrap: wrap;
+    word-wrap: break-word;
     align-items: center;
     justify-content: center;
     width: 100%;
